@@ -9,7 +9,7 @@ set(MY_VARIABLE "Hello from top-level CMakeLists.txt")
 message("MY_VARIABLE === ${MY_VARIABLE}")
 
 # add_subdirectory(cmake_c)
-# add_subdirectory(cmake_cpp)
+add_subdirectory(cmake_cpp)
 add_subdirectory(cmake_libuse)
 
 message("Warn Top log quit")
